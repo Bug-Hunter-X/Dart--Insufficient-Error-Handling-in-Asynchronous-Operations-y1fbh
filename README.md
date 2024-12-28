@@ -1,0 +1,2 @@
+# Dart Asynchronous Programming: Robust Error Handling
+This repository showcases a common error in Dart asynchronous programming and demonstrates a robust solution.  The `bug.dart` file contains the problematic code with insufficient error handling, while `bugSolution.dart` provides improved, more comprehensive error handling.  The primary issue involves missing `FormatException` handling during JSON parsing and potential network timeouts. The solution enhances error handling using `try-catch` blocks and more specific exception handling.
